@@ -9,6 +9,8 @@ public class DemoApplication {
 	private static final String REST_URL="http://localhost:9999/add";
 
 	public static void main(String[] args) {
+		
+		private Map<String,Object> cahed=new HashMap<String,Object>();
 		SpringApplication.run(DemoApplication.class, args);
 		
 		System.out.println("added first statement");
@@ -18,6 +20,12 @@ public class DemoApplication {
 	
 	public void doProcess(){
 		//HIS-200
+		
+		
+	}
+	
+	public void loadDataToCache(){
+		//HIS-300
 		
 		
 	}
